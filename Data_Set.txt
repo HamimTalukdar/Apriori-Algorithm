@@ -1,0 +1,28 @@
+6 7 8 5 4 10
+3 8 7 5 4 10
+6 1 5 4
+6 3 2 5 10
+2 8 9 5 4
+
+
+bread cheese juice
+noodles ketchup juice
+juice biscuits chips ketchup
+cheese juice biscuits chips
+chips noodles bread 
+ketchup noodles chips biscuits 
+biscuits juice 
+bread biscuits cheese
+ketchup noodles chips
+chips juice 
+cheese bread chips ketchup
+noodles chips ketchup
+ketchup juice noodles chips 
+juice cheese bread chips biscuits
+
+
+bread butter milk
+bread butter
+beer cookies diapers
+milk diapers bread butter
+beer diapers 
