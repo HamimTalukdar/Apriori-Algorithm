@@ -105,7 +105,14 @@ def createC(l, a):
     else:
         n=len(l)-1
         if len(c) == n*(n+1) / 2 :
-            return  False     
+            return  False   
+        
+    dtc=0
+    for i in range(len(c)):
+          if c[i][1] >= spt:
+              dtc = 1
+    if dtc==0:
+        return False      
         
     return c
 
@@ -125,7 +132,7 @@ def Apriori(c):
         print("L"+str(i)+ "= ")
         listPrint(l, 'l')
             
-        if i==1:
+        if i==1: 
             c=createC(l, 1)
             global l1
             l1=l
@@ -146,6 +153,7 @@ def Apriori(c):
             
 Apriori(c)
 
+# Rule mining
 def ruleMining(l1, l2, l3):
     cd=input("Enter minimum confidence in percent: ")
     cd=cd.split('%')
